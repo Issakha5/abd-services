@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+{% load static %}
+
+{% load crispy_forms_tags %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ABD Services</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+   <!-- CSS Files -->
+    {% include 'link_page.html' %}
+</head>
+<body>
+
+ <!-- ======= Top Bar ======= -->
+
+    {% include 'top_bar.html' %}
+ <!-- ======= End Top Bar ======= -->
+   <!-- ======= Header ======= -->
+    {% include 'header.html' %}
+    <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+    {% include 'hero_section.html' %}
+  <!-- End Hero -->
+
+ <main id="main">
+
+   <!-- About Us Section -->
+   {% include 'about.html' %}
+   <!-- End About Us Section -->
+   <!-- About Lists Section -->
+   {% include 'about_list.html' %}
+   <!-- End About Lists Section -->
+   <!-- Counts Section -->
+   {% include 'count_section.html' %}
+   <!-- End Counts Section -->
+   <!-- Services Section -->
+   {% include 'services_section.html' %}
+   <!-- End Services Section -->
+   <!-- Our Portfolio Section -->
+   {% include 'portfolio_section.html' %}
+   <!-- End Our Portfolio Section -->
+   <!-- End Our Team Section -->
+   {% include 'team_section.html' %}
+   <!-- End Our Team Section -->
+   <!-- End Contact Us Section -->
+   {% include 'contactus_section.html' %}
+   <!-- End Contact Us Section -->
+ </main><!-- End #main -->
+
+ <!-- Footer -->
+ {% include 'footer.html' %}
+ <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- JS Files -->
+    {% include 'script_page.html' %}
+</body>
+</html>
