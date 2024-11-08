@@ -135,8 +135,8 @@ EMAIL_HOST = 'smtp-mail.outlook.com'
 # EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'alphaissakha.diallo@unchk.edu.sn'
-EMAIL_HOST_USER = 'issakhad5@hotmail.fr'
+# EMAIL_HOST_USER = 'testesss'
+EMAIL_HOST_USER = 'ttttttttttttt@tttttttttttt.fr'
 
-EMAIL_HOST_PASSWORD = 'essien91'
+EMAIL_HOST_PASSWORD = '5555555555555555'
 
